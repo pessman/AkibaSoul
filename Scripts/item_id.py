@@ -17,9 +17,10 @@ db = connector.connect(
 )
 
 '''
+debugging statements
+'''
 print(db)
 print(db.database)
-'''
 
 cursor = db.cursor(buffered=True)
 cursor_update = db.cursor(buffered=True)
